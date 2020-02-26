@@ -1,6 +1,6 @@
 {
   "name": "codeowner-finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for finding codeowners for a specific pattern",
   "main": "index.js",
   "bin": {
