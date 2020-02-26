@@ -28,7 +28,6 @@ function parse(str, matchPattern) {
         if (trimmed === "")
             continue;
         let [pattern, ...owners] = trimmed.split(/\s+/);
-        console.log(pattern)
         if(pattern == matchPattern){
           entries = entries.concat(owners);
         }
@@ -39,5 +38,5 @@ function parse(str, matchPattern) {
 async function loadOwners(cwd, matchPattern) {
     let contents = await readFile(cwd, "utf-8");
     let entries = parse(contents, matchPattern);
-    return entries;
+    return '' + entries;
 }
