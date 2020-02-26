@@ -30,7 +30,7 @@ function parse(str, matchPattern) {
         let [pattern, ...owners] = trimmed.split(/\s+/);
         console.log(pattern)
         if(pattern == matchPattern){
-          entries.push({ pattern, owners });
+          entries = entries.concat(owners);
         }
     }
     return entries.reverse();
