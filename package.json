@@ -1,0 +1,32 @@
+{
+  "name": "codeowner-finder",
+  "version": "1.0.0",
+  "description": "A tool for finding codeowners for a specific pattern",
+  "main": "codeowners.js",
+  "bin": {
+    "codeowners": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codeowners",
+    "gitlab"
+  ],
+  "contributors": [
+    "Bergur Páll Gylfason <bergur88@gmail.com>",
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergur88/codeowner-finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bergur88/codeowner-finder/issues"
+  },
+  "homepage": "https://github.com/bergur88/codeowner-finder#readme"
+}
