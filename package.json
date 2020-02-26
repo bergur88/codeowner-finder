@@ -2,9 +2,9 @@
   "name": "codeowner-finder",
   "version": "1.0.0",
   "description": "A tool for finding codeowners for a specific pattern",
-  "main": "codeowners.js",
+  "main": "index.js",
   "bin": {
-    "codeowners": "./index.js"
+    "codeowner-finder": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "gitlab"
   ],
   "contributors": [
-    "Bergur Páll Gylfason <bergur88@gmail.com>",
+    "Bergur Páll Gylfason <bergur88@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {
