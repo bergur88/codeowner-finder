@@ -38,5 +38,5 @@ function parse(str, matchPattern) {
 async function loadOwners(cwd, matchPattern) {
     let contents = await readFile(cwd, "utf-8");
     let entries = parse(contents, matchPattern);
-    return '' + entries;
+    return entries.join(' ');
 }
